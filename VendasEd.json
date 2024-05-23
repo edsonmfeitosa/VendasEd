@@ -1,0 +1,1284 @@
+[{
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 1,
+            "CodCliente": 1,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-27T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 1,
+            "CodProduto": 1,
+            "Quantidade": 3,
+            "Valor": 1.50
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 1,
+            "NomeVenda": "Dinheiro",
+            "DescricaoVenda": "pagamento a vista"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 1,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.45
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 1,
+            "CodCliente": 1,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-27T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 1,
+            "CodProduto": 1,
+            "Quantidade": 3,
+            "Valor": 1.50
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 1,
+            "NomeVenda": "Dinheiro",
+            "DescricaoVenda": "pagamento a vista"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 2,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 1,
+            "CodCliente": 1,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-27T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 1,
+            "CodProduto": 4,
+            "Quantidade": 5,
+            "Valor": 1.00
+        },
+        "Produto": {
+            "CodProduto": 4,
+            "Nome": "lápis",
+            "CodMarca": 1
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 1,
+            "NomeVenda": "Dinheiro",
+            "DescricaoVenda": "pagamento a vista"
+        },
+        "Marca": {
+            "CodMarca": 1,
+            "Nome": "faber castell"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 8,
+            "CodProduto": 4,
+            "CodFornecedor": 2,
+            "Valor": 0.15
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 1,
+            "Quantidade": 2,
+            "Valor": 1.60
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 1,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.45
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 1,
+            "Quantidade": 2,
+            "Valor": 1.60
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 2,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 4,
+            "Quantidade": 2,
+            "Valor": 0.95
+        },
+        "Produto": {
+            "CodProduto": 4,
+            "Nome": "lápis",
+            "CodMarca": 1
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 1,
+            "Nome": "faber castell"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 8,
+            "CodProduto": 4,
+            "CodFornecedor": 2,
+            "Valor": 0.15
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 5,
+            "Quantidade": 1,
+            "Valor": 2.50
+        },
+        "Produto": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 3,
+            "Nome": "reggg"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 9,
+            "CodProduto": 5,
+            "CodFornecedor": 3,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 3,
+            "Telefone": "(16)3388-1123",
+            "CNPJ": "4568524",
+            "Razao": "BlaBla Ltda"
+        },
+        "Compra": {
+            "CodCompra": 1,
+            "CodFornecedor": 3,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-24T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 2,
+            "Nome": "Cheque",
+            "Descricao": "pagamento em cheque"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 1,
+            "CodCompra": 1,
+            "CodProduto": 1,
+            "Quantidade": 20,
+            "Valor": 2.00
+        },
+        "ProdutoCompra": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 5,
+            "Quantidade": 1,
+            "Valor": 2.50
+        },
+        "Produto": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 3,
+            "Nome": "reggg"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 9,
+            "CodProduto": 5,
+            "CodFornecedor": 3,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 3,
+            "Telefone": "(16)3388-1123",
+            "CNPJ": "4568524",
+            "Razao": "BlaBla Ltda"
+        },
+        "Compra": {
+            "CodCompra": 1,
+            "CodFornecedor": 3,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-24T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 2,
+            "Nome": "Cheque",
+            "Descricao": "pagamento em cheque"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 2,
+            "CodCompra": 1,
+            "CodProduto": 2,
+            "Quantidade": 5,
+            "Valor": 1.90
+        },
+        "ProdutoCompra": {
+            "CodProduto": 2,
+            "Nome": "caneta",
+            "CodMarca": 5
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 5,
+            "Quantidade": 1,
+            "Valor": 2.50
+        },
+        "Produto": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 3,
+            "Nome": "reggg"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 9,
+            "CodProduto": 5,
+            "CodFornecedor": 3,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 3,
+            "Telefone": "(16)3388-1123",
+            "CNPJ": "4568524",
+            "Razao": "BlaBla Ltda"
+        },
+        "Compra": {
+            "CodCompra": 2,
+            "CodFornecedor": 3,
+            "CodCondicaoPagto": 3,
+            "Data": "2021-09-27T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 3,
+            "Nome": "cartão",
+            "Descricao": "pagamento em cartão"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 3,
+            "CodCompra": 2,
+            "CodProduto": 2,
+            "Quantidade": 3,
+            "Valor": 2.00
+        },
+        "ProdutoCompra": {
+            "CodProduto": 2,
+            "Nome": "caneta",
+            "CodMarca": 5
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 1,
+            "Nome": "edson martin feitosa",
+            "Telefone": "(15)1234-5678",
+            "RG": "12234565",
+            "CPF": "222.222.333-50",
+            "Email": "edsonfeitosa@ig.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 2,
+            "CodCliente": 1,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 2,
+            "CodProduto": 5,
+            "Quantidade": 1,
+            "Valor": 2.50
+        },
+        "Produto": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 3,
+            "Nome": "reggg"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 9,
+            "CodProduto": 5,
+            "CodFornecedor": 3,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 3,
+            "Telefone": "(16)3388-1123",
+            "CNPJ": "4568524",
+            "Razao": "BlaBla Ltda"
+        },
+        "Compra": {
+            "CodCompra": 2,
+            "CodFornecedor": 3,
+            "CodCondicaoPagto": 3,
+            "Data": "2021-09-27T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 3,
+            "Nome": "cartão",
+            "Descricao": "pagamento em cartão"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 4,
+            "CodCompra": 2,
+            "CodProduto": 4,
+            "Quantidade": 5,
+            "Valor": 1.10
+        },
+        "ProdutoCompra": {
+            "CodProduto": 4,
+            "Nome": "lápis",
+            "CodMarca": 1
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 2,
+            "Nome": "rafael moreno",
+            "Telefone": "(15)0000-0000",
+            "CPF": "222.622.332-50",
+            "Email": "rafael@terra.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Mario Quintana, 123",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "São Roque",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 3,
+            "CodCliente": 2,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 3,
+            "CodProduto": 1,
+            "Quantidade": 1,
+            "Valor": 1.50
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 1,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.45
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 2,
+            "Nome": "rafael moreno",
+            "Telefone": "(15)0000-0000",
+            "CPF": "222.622.332-50",
+            "Email": "rafael@terra.com.br",
+            "Sexo": "M",
+            "Endereco": "Rua Mario Quintana, 123",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "São Roque",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 3,
+            "CodCliente": 2,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 2,
+            "Data": "2021-09-28T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 3,
+            "CodProduto": 1,
+            "Quantidade": 1,
+            "Valor": 1.50
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 2,
+            "NomeVenda": "Cheque",
+            "DescricaoVenda": "pagamento em cheque"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 2,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 3,
+            "Nome": "daniela martin feitosa",
+            "CPF": "222.622.332-50",
+            "Sexo": "F",
+            "Endereco": "Rua Guilherme Oliveira, 12",
+            "Bairro": "Jd. Vera das Acássicas",
+            "Cidade": "Votorantim",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 4,
+            "CodCliente": 3,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-29T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 4,
+            "CodProduto": 1,
+            "Quantidade": 250,
+            "Valor": 1.45
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 1,
+            "NomeVenda": "Dinheiro",
+            "DescricaoVenda": "pagamento a vista"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 1,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.45
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 3,
+            "Nome": "daniela martin feitosa",
+            "CPF": "222.622.332-50",
+            "Sexo": "F",
+            "Endereco": "Rua Guilherme Oliveira, 12",
+            "Bairro": "Jd. Vera das Acássicas",
+            "Cidade": "Votorantim",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 4,
+            "CodCliente": 3,
+            "CodVendedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-29T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 2,
+            "Nome": "Maria",
+            "Telefone": "333586",
+            "RG": "5846585",
+            "CPF": "124578963",
+            "Email": "maria@aol.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 4,
+            "CodProduto": 1,
+            "Quantidade": 250,
+            "Valor": 1.45
+        },
+        "Produto": {
+            "CodProduto": 1,
+            "Nome": "caneta",
+            "CodMarca": 4
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 1,
+            "NomeVenda": "Dinheiro",
+            "DescricaoVenda": "pagamento a vista"
+        },
+        "Marca": {
+            "CodMarca": 4,
+            "Nome": "BIC"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 2,
+            "CodProduto": 1,
+            "CodFornecedor": 2,
+            "Valor": 0.40
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }, {
+        "Cliente": {
+            "CodCliente": 4,
+            "Nome": "renata cristina scudeler",
+            "Telefone": "(15)0001-0300",
+            "RG": "246886",
+            "CPF": "111.622.332-50",
+            "Email": "renatacristina@uol.com",
+            "Sexo": "F",
+            "Endereco": "Rua Orlando Alvagenga, 1",
+            "Bairro": "Jd. Vera Cruz",
+            "Cidade": "Sorocaba",
+            "Estado": "SP"
+        },
+        "Pedido": {
+            "CodPedido": 5,
+            "CodCliente": 4,
+            "CodVendedor": 1,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-27T08:59:06.333"
+        },
+        "Vendedor": {
+            "CodVendedor": 1,
+            "Nome": "Joãozinho",
+            "Telefone": "123454",
+            "RG": "2475766",
+            "CPF": "123.123-12",
+            "Email": "joaozinho@ig.com.br",
+            "Sexo": "M"
+        },
+        "ItemPedido": {
+            "CodPedido": 5,
+            "CodProduto": 4,
+            "Quantidade": 3,
+            "Valor": 0.95
+        },
+        "Produto": {
+            "CodProduto": 4,
+            "Nome": "lápis",
+            "CodMarca": 1
+        },
+        "CondicaoPagamento": {
+            "CodCondicaoPagtoVenda": 1,
+            "NomeVenda": "Dinheiro",
+            "DescricaoVenda": "pagamento a vista"
+        },
+        "Marca": {
+            "CodMarca": 1,
+            "Nome": "faber castell"
+        },
+        "ProdutoFornecedor": {
+            "CodProdutoFornecedor": 8,
+            "CodProduto": 4,
+            "CodFornecedor": 2,
+            "Valor": 0.15
+        },
+        "Fornecedor": {
+            "CodFornecedor": 2,
+            "Telefone": "(19)7447-6685",
+            "CNPJ": "2746563863",
+            "Razao": "XPTO Ltda"
+        },
+        "Compra": {
+            "CodCompra": 3,
+            "CodFornecedor": 2,
+            "CodCondicaoPagto": 1,
+            "Data": "2021-09-26T08:59:06.337"
+        },
+        "CondicaoPagamentoCompra": {
+            "CodCondicaoPagto": 1,
+            "Nome": "Dinheiro",
+            "Descricao": "pagamento a vista"
+        },
+        "ItemCompra": {
+            "CodItemCompra": 5,
+            "CodCompra": 3,
+            "CodProduto": 5,
+            "Quantidade": 6,
+            "Valor": 1.25
+        },
+        "ProdutoCompra": {
+            "CodProduto": 5,
+            "Nome": "régua",
+            "Descricao": "30 centímetros",
+            "CodMarca": 3
+        }
+    }
+]
